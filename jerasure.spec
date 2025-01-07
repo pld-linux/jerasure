@@ -8,7 +8,7 @@
 Summary:	A Library in C Facilitating Erasure Coding for Storage
 Name:		jerasure
 Version:	2.0
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Libraries
 Source0:	https://git.sr.ht/~thestr4ng3r/jerasure/archive/%{gitref}.tar.gz#/%{name}-%{version}.tar.gz
