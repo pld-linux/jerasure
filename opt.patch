@@ -1,0 +1,13 @@
+--- jerasure-505ccb4b/configure.ac~	2019-08-19 14:45:54.000000000 +0200
++++ jerasure-505ccb4b/configure.ac	2025-01-08 00:02:05.289998143 +0100
+@@ -11,10 +11,6 @@
+ 
+ AM_INIT_AUTOMAKE([1.13 -Wall -Wno-extra-portability])
+ 
+-# Package default C compiler flags.
+-dnl This must be before LT_INIT and AC_PROG_CC.
+-: ${CFLAGS='-g -O3 -Wall'}
+-
+ LT_INIT([disable-static])
+ 
+ # Checks for programs.
